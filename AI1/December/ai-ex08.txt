@@ -1,0 +1,44 @@
+/1a propositional logic:
+variable = symbol. symbol = sentence that can be true or false
+FOL:
+variable (e.g. x/y) = object.
+b)
+predicate acts like an attribute or adjective. a function connects objects in a specific way (e.g. relationships)
+predicates can be evaluated true or false. functions create new objects.
+
+/2
+1 Ax (Student(x) => Smart(x))
+2 Ex Student(x)
+3 Ex (Student(x) ^ Smart(x))
+4 AxEy (Student(x) ^ Student(y) ^ Loves(x,y))
+5 AxEy (Student(x) ^ Student(y) ^ Loves(x,y) ^ Not(x = y))
+6 ExAy (Student(x) ^ Student(y) ^ Loves(y,x) ^ Not(x = y))
+7 Student(Bill)
+8 (Takes(Student(Bill), Analysis) v Takes(Student(Bill), Geometry)) ^ Takes(Student(Bill), Analysis) <=> Not(Takes(Student(Bill), Geometry))
+9 Takes(Student(Bill), Analysis) ^ Takes(Student(Bill), Geometry)
+10 Not(Takes(Student(Bill), Analysis))
+11 Not(Ex) (Student(x) ^ Loves(x, Bill))
+
+/3
+1 Above(A,C) ^ On(D,E) ^ Above(D,F)
+2 green(A) => Not(green(C))
+3 AxEy On(x,y)
+4 AxEy (free(x) => Not(On(y,x)))
+5 Ax (green(x) => free(x))
+6 Ex (red(x) ^ Not(free(x)))
+7 Ax ((Not(green(x)) ^ Above(x,B)) => red(x))
+
+-A,B,C,D,E,F, x/y
+-green, red, free
+functions: Above, On
+axioms?
+
+/4
+a false
+b true
+c true
+d false
+e true
+f false
+g false
+h true

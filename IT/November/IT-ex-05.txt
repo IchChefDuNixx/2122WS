@@ -1,0 +1,14 @@
+/1
+(2^32-1)/(8*1024^3) = 0.49999999988
+rounded to 0.5 GiB (Gibibyte)
+
+/2
+			test*	*test*	test?.*	t[1x].*	t[!12].*.text*
+.text.c												✅
+attest.doc			✅
+t1.tar								✅
+t2.txt
+test.c		✅		✅
+test2.c		✅		✅		✅
+tx.map								✅		✅
+

@@ -1,0 +1,7 @@
+/1 BFS will always find a path shorter/equal than DFS b/c
+
+/2 c
+
+/3 a
+
+/4 5

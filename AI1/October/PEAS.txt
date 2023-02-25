@@ -1,0 +1,17 @@
+Soccer:
+-frequency of goals x/t
+-3d soccer field LxBxH
+-"players" - humanoid with moving legs
+-Counter, detecting 3d objects like ball and players, weather/floor condition
+
+Shopping Book Online:
+-value of purchase(s)
+-website(s)
+-HID emulation. at least keyboard
+-data fetcher
+
+Tennis:
+-frequency of hits + points
+-3d court LxBxH + net
+-player that's able to strike
+-Counter, detecting 3d objects like ball and players, weather/floor condition

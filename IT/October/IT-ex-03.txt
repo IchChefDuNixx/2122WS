@@ -1,0 +1,41 @@
+/1
+S	R	Q'	Q*'	Q	Q*
+0	0	1	1	1	1
+0	1	1	0	1	0
+1	0	1	1	0	1
+1	1	1	0	1	0
+
+works as RS latch
+
+/3a
+P1	P2	Q1	Q2		Y1(P>Q)	Y2(P=Q) Y3(P<Q)
+0	0	0	0		0		1		0
+0	0	0	1		0		0		1
+0	0	1	0		0		0		1
+0	0	1	1		0		0		1
+
+0	1	0	0		1		0		0
+0	1	0	1		0		1		0
+0	1	1	0		0		0		1
+0	1	1	1		0		0		1
+
+1	0	0	0		1		0		0
+1	0	0	1		1		0		0
+1	0	1	0		0		1		0
+1	0	1	1		0		0		1
+
+1	1	0	0		1		0		0
+1	1	0	1		1		0		0
+1	1	1	0		1		0		0
+1	1	1	1		0		1		0
+
+b)
+Y1: (P1 or P2 and not Q1 and not Q2) or (P1 and not P2 and not Q1) or (P1 and P2 and not Q1 or not Q2)
+
+Y2: (not P1 and not P2 and not Q1 and not Q2) or (not P1 and P2 and not Q1 and Q2) or (P1 and not P2 and Q1 and not Q2) or (P1 and P2 and Q1 and Q2)
+
+Y3: (not P1 and not P2 and Q1 or Q2) or (not P1 and Q1) or (P1 and not P2 and Q1 and Q2)
+
+/5a Armv9-A wurde im März 2021 vorgestellt
+b)	Arm Neoverse V1
+c)	Armv7-A Cortex-A7

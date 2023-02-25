@@ -1,0 +1,11 @@
+/1 not B1 and not B2 and B2 - 1 is true, 2 false
+
+	base case	first true	second true	third true
+B1	false		false		true		true	
+B2	cntrdctn	cntrdctn	false		cntrdctn
+B3	-			-			-			-
+
+if box 2 is true, gold is in box 1
+
+/2-4
+whiteboard

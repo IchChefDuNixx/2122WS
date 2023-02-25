@@ -1,0 +1,47 @@
+/1a
+'C:\\Users\\Felix\\AppData\\Local\\Programs\\Python\\Python310'
+python.exe
+
+b)
+>>> import os
+>>> cwd = os.getcwd()
+>>> cwd
+'C:\\Users\\Felix\\AppData\\Local\\Programs\\Python\\Python310'
+>>> os.chdir("..")
+>>> cwd2 = os.getcwd()
+>>> cwd2
+'C:\\Users\\Felix\\AppData\\Local\\Programs\\Python'
+
+
+
+/2a
+2
+2 4
+2 4 10
+2 4 10 8
+2 4 10 8 6
+
+prio avg = 15.6
+
+
+
+10
+10 6
+10 6 4
+10 6 4 2
+10 6 4 2 8
+
+FCFS avg = 19.6
+
+
+
+2
+2 4
+2 4 6
+2 4 6 8
+2 4 6 8 10
+
+shortest first avg = 14
+
+b)
+fuckpython.java

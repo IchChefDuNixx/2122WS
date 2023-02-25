@@ -1,0 +1,50 @@
+/17
+I(n) = U/R = nUq/(nRi+Ra) | expand by 1/n
+	Uq/(Ri+(Ra/n))
+	n->inf Ra/n -> 0
+lim I(n) = Uq/Ri
+n->inf
+
+Graph:
+0 0
+1 0.5
+2 0.75
+3 0.83
+4 0.87
+5 0.9
+
+inf 1
+
+/18a	p(2) = 0 = q(2)
+		p(x) = (x-2)*r(x) //weil Nullstelle bei x=2 (2-2)
+		q(x) = (x-2)*s(x) //(x-2) vor jeden term schreiben weil letztendlich bei x=2 dann alles 0 ist
+		lim p(x)/q(x) = lim ((x-2)r(x))/((x-2)s(x))
+		x->2			x->2
+	Polynomdivision mit Nullstelle
+	(x^3-x^2-2x)/(x-2) = 
+	
+	
+	(x^3+x^2-7x+2)/(x-2) =
+b)
+c)
+
+
+/19a
+f(x): is part of a parabola with vertex (scheitel) at 1. f(1) = 0 -> min = 0. max = f(0) = 1.
+=> [0,1]
+g(x): -x and +1 are both constants. a combination of constants is continuous.
+min = g(1) = 0, max = g(0) = 1
+=> [0,1]
+
+any continuous graph that is limited attains its maximum and minimum. 
+
+
+
+b) 	h1(x) = (-x+1)^2-2(-x+1)+1 = x^2-2x+1+2x-2+1 = x^2
+	h2(x) = -(x^2-2x+1)+1	   = -x^2+2x-1+1 = -x^2+2x
+	
+c)	omit the linear parts. look at the highest x
+	f(x) x^2 -> monotonically increasing
+	g(x) -x -> monotonically decreasing
+	h1(x) 
+	h2(x) 

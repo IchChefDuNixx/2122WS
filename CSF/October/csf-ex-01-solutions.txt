@@ -1,0 +1,17 @@
+1) 
+	a)
+	b) 26^2 = 676
+2) 	Benchmarks
+3) 	CPU - Central Processing Unit, processor, executes commands, connects things
+	ALU - Arithmetic Logic Unit, executes calculations
+	RAM - Random Access Memory, fast, important, stores data and instructions for the CPU
+	ROM - Read Only Memory, BIOS, non-volatile storage
+	BIOS - Basic Input/Output System, underlying microcode for the pc, starts before OS, contains a lot of settings
+	MIPS - Million Instructions Per Second, useless measure of performance
+	FLOPS - FLoating Point Operations Per Second, measure of performance in specific workload
+4)  80*64 -> 5120MBit/s = 640MB/s = 610,35 MiB/s
+5)  40*32*0,9 -> 1152MBit/s = 144MB/s = 137,33 MiB/s
+6)  a) 32 bits / 4 Bytes
+	b) 2^32-1 = 11111111111111111111111111111111 / 4294967295
+	c) 2^21-1 = 2097151 / 21
+	d) all

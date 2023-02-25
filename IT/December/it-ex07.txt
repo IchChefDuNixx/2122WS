@@ -1,0 +1,75 @@
+/1a 
+f = 1/4ms = 0.25/ms = 250/s = 250Hz
+sampling results at 250Hz and 1kHz:
+0,          0,          0
+0, 1, 0, 1, 0, 1, 0, 1, 0
+
+min sampling rate = 2*250Hz = 500Hz
+
+b)	https://www.google.com/search?q=(4%2Fpi)*(sin(1x)%2F1+%2B+sin(3x)%2F3+%2B+sin(5x)%2F5+%2B+sin(7x)%2F7+%2B+sin(9x)%2F9)&rlz=1C1ONGR_deDE977DE977&oq=(4%2Fpi)*(sin(1x)%2F1+%2B+sin(3x)%2F3+%2B+sin(5x)%2F5+%2B+sin(7x)%2F7+%2B+sin(9x)%2F9)&aqs=chrome..69i57.128161j1j7&sourceid=chrome&ie=UTF-8
+1110000111000
+1110001111000
+12 values - > 111000111000
+
+/2a
+2Blog2(V) = 2*7000000Hz*log2(4) = 28000000Hz => 28Mb/s = 3.5MB/s = 3.25962901115MiB/s
+Baud rate = Bit rate / information per bit
+Baud rate = 28MB/s / 2
+= 14Mbaud
+weil binary digit = 0/1 -> 0.5er faktor?
+
+b)
+no theoretical limits
+Bit rate = 2Blog2(V)
+8000 bit/s = 2*4000Hz*log2(V)
+V = 2 -> 2*4000Hz*1 = 8000 bit/s
+
+64000 bit/s = 2*4000Hz*log2(V)
+64000/8000 = log2(V)
+log2(V) = 8
+2^8 = V
+V = 256 (unrealistic?)
+
+c)
+Blog2(1+S/N)
+7000Hz*log2(1+30dB)
+30dB = 10log(S/N)
+3dB = log(S/N)
+10^3dB = S/N
+example S = 1000, N = 1
+7000Hz*log2(1+1000) = 69770583.8119bit/s = ~8721KB/s = ~8317KiB/s = 8.317MiB/s
+
+/3
+half duplex
+half duplex
+simplex
+
+/4
+00-1A-7D-DA-71-13   Medien ausgeworfen	cyber-blue(HK)Ltd
+18-31-BF-27-2F-B5   Nicht zutreffend	ASUSTek COMPUTER INC.
+
+/5
+A 01000111
+B 11100011
+FLAG 01111110
+ESC 11100000
+
+a)
+Byte Count:		COUNT A B ESC FLAG					00000101 01000111 11100011 11100000 01111110
+sol													00000101 01000111 11100011 11100000 01111110.
+Byte Stuffing:	FLAG A B ESC ESC ESC FLAG FLAG		01111110 01000111 11100011 11100000 11100000 11100000 01111110 01111110
+sol													01111110 01000111 11100011 11100000 11100000 11100000 01111110 01111110
+Bit Stuffing:	FLAG A B ESC FLAG FLAG				01111110 01000111 110100011 111000000 011111010 01111110
+sol													01111110 01000111 110100011 111000000 011111010 01111110
+
+b)
+yes, exactly twice
+
+/6
+01111110 011011111 0 11111 0 10010 01111110
+FLAG			stuffed	stuffed		FLAG
+
+-> 0110111111111110010
+
+
+

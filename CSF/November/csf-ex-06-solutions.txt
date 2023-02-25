@@ -1,0 +1,30 @@
+/1	Xi	Pi		I(c)	I(c) rounded up	H		example code	Fano		Huffman	
+	a	0.25	2		2				0.5		00				00			10
+	b	0.25	2		2				0.5		01				01			00
+	c	0.20	2.32	3				0.464	110				10			01
+	*	0.15	2.74	3				0.411	101				110			110
+	=	0.10	3.32	4				0.332	1110			1110		1110
+	+	0.05	4.32	5				0.216	11111			1111		1111
+total	1		16.7	19				2.423			avg L:  2.45        2.45
+													redundancy:	0.027		0.027
+
+Huffman a*a+b*b=c*c -> 10110101111001100011100111001
+Fano 		"		-> 00110001111011100111101011010
+
+
+
+/2	Xi	Pi		I(x)	H				Huffman	Fano	Block code (6 rounded up to 2^3 -> 3 digits each) log2(6)
+	A	0.105	3.25	0.34125			0100	010		000
+	E	0.22	2.18	0.4796			00		011		001
+	I	0.105	3.25	0.34125			0101	001		010
+	O	0.04	4.64	0.1856			0110	0000	011
+	U	0.45	1.15	0.5175			1		1		100
+	Y	0.08	3.64	0.2912			0111	0001	101
+total	1		18.11	2.1564		avg L 2.21 	2.22	3
+							   redundancy 0.05 	0.06	0.84
+
+Huffman L / Block code L = 0.737, worse compression
+
+/3 
+always same probability
+pi = 1/(2^n)
